@@ -20,7 +20,7 @@
         "description": "The title of the application, displayed in the web store."
     },
     "appDesc": {
-        "message": "This tiny extension skip song in google play music in case if it was disliked before",
+        "message": "This extension automatically skips disliked songs",
         "description": "The description of the application, displayed in the web store."
     }
 }
