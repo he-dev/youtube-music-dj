@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDesc__",
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "host_permissions": [
+        "https://music.youtube.com/*"
+    ],
+
+    "default_locale": "en",
+
+    "version": "1.0.0",
+    "icons": {
+        "256": "dj.png"
+    },
+
+    "action": {
+        "default_icon": {
+            "24": "dj.png"
+        },
+        "default_title": "go",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting",
+        "webNavigation"
+    ],
+    "author": "he-dev"
+}

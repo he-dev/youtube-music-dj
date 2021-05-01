@@ -1,0 +1,26 @@
+{
+    "mainTitle": {
+        "message": "YouTube Music DJ",
+        "description": "main title on the page"
+    },
+    "canSkipDislikeLabel": {
+        "message": "Skip dislikes",
+        "description": "message nearby checkbox"
+    },
+    "skipCount": {
+        "message": "Skipped songs: $COUNT$",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "appName": {
+        "message": "YouTube Music DJ",
+        "description": "The title of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "This tiny extension skip song in google play music in case if it was disliked before",
+        "description": "The description of the application, displayed in the web store."
+    }
+}
