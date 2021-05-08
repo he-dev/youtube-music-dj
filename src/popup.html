@@ -11,6 +11,10 @@
         h1 {
             font-size: 15px;
         }
+        
+        .hint {
+            font-size: x-small;
+        }
     </style>
     <script src="popup.js"></script>
 </head>
@@ -18,10 +22,16 @@
 <body>
     <h1 id="mainTitle"></h1>
     <form id="mainForm">
-        <input type="checkbox" id="canSkipDislike" name="canSkipDislike" value="skip">
-        <label for="canSkipDislike" id="canSkipDislikeLabel"></label>
+        <p>
+            <input type="checkbox" id="canSkipDislike" name="canSkipDislike" value="skip">
+            <label for="canSkipDislike" id="canSkipDislikeLabel">Skip dislikes</label>
+        </p>
+        <p>
+            <input type="checkbox" id="canSkipLike" name="canSkipLike" value="skip">
+            <label for="canSkipLike" id="canSkipLikeLabel">Skip likes</label> <span id="canSkipLikeHint" class="hint">(useful when searching for new songs)</span>
+        </p>
     </form>
-    <p id="skipCount"></p>
+    <p id="skipCount">Skipped songs: 7</p>
 </body>
 
 </html>
