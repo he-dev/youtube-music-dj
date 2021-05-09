@@ -12,7 +12,7 @@
         "description": "message nearby checkbox"
     },
     "canSkipLikeHint": {
-        "message": "(useful when searching for new songs)",
+        "message": "(useful to discover new songs)",
         "description": "message nearby checkbox"
     },
     "skipCount": {
